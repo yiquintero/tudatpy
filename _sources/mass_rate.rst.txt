@@ -1,5 +1,5 @@
-``tudatpy.simulation.propagation_setup.mass_rate``
-==================================================
+``mass_rate``
+=============
 None
 
 
@@ -8,6 +8,15 @@ None
 
 Functions
 ---------
+.. currentmodule:: tudatpy.simulation.propagation_setup.mass_rate
+
+.. autosummary::
+
+   from_thrust
+
+   custom
+
+
 
 .. autofunction:: tudatpy.simulation.propagation_setup.mass_rate.from_thrust
 

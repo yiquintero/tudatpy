@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="tudatpy.simulation" href="simulation.html" /><link rel="prev" title="tudatpy.interface" href="interface.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="simulation" href="simulation.html" /><link rel="prev" title="interface" href="interface.html" />
 
     <meta name="generator" content="sphinx-4.1.2, furo 2021.07.28.beta40"/>
-        <title>tudatpy.interface.spice - tudat-api documentation</title>
+        <title>spice - tudat-api documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css" />
@@ -149,24 +149,24 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul class="current">
-<li class="toctree-l1 current has-children"><a class="reference internal" href="interface.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.interface</span></code></a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">tudatpy.interface.spice</span></code></a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="interface.html"><code class="docutils literal notranslate"><span class="pre">interface</span></code></a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">spice</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="simulation.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation</span></code></a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="environment_setup.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.environment_setup</span></code></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label for="toctree-checkbox-3"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="ephemeris.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.environment_setup.ephemeris</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="gravity_field.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.environment_setup.gravity_field</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="rotation_model.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.environment_setup.rotation_model</span></code></a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="simulation.html"><code class="docutils literal notranslate"><span class="pre">simulation</span></code></a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="environment_setup.html"><code class="docutils literal notranslate"><span class="pre">environment_setup</span></code></a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label for="toctree-checkbox-3"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="ephemeris.html"><code class="docutils literal notranslate"><span class="pre">ephemeris</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gravity_field.html"><code class="docutils literal notranslate"><span class="pre">gravity_field</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="rotation_model.html"><code class="docutils literal notranslate"><span class="pre">rotation_model</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="propagation_setup.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.propagation_setup</span></code></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label for="toctree-checkbox-4"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="acceleration.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.propagation_setup.acceleration</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="dependent_variable.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.propagation_setup.dependent_variable</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="integrator.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.propagation_setup.integrator</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="mass_rate.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.propagation_setup.mass_rate</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="propagator.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.propagation_setup.propagator</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="torque.html"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation.propagation_setup.torque</span></code></a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="propagation_setup.html"><code class="docutils literal notranslate"><span class="pre">propagation_setup</span></code></a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label for="toctree-checkbox-4"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="acceleration.html"><code class="docutils literal notranslate"><span class="pre">acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="dependent_variable.html"><code class="docutils literal notranslate"><span class="pre">dependent_variable</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="integrator.html"><code class="docutils literal notranslate"><span class="pre">integrator</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mass_rate.html"><code class="docutils literal notranslate"><span class="pre">mass_rate</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="propagator.html"><code class="docutils literal notranslate"><span class="pre">propagator</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="torque.html"><code class="docutils literal notranslate"><span class="pre">torque</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -194,11 +194,70 @@
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
-        <section id="tudatpy-interface-spice">
-<h1><code class="docutils literal notranslate"><span class="pre">tudatpy.interface.spice</span></code><a class="headerlink" href="#tudatpy-interface-spice" title="Permalink to this headline">¶</a></h1>
+        <section id="spice">
+<h1><code class="docutils literal notranslate"><span class="pre">spice</span></code><a class="headerlink" href="#spice" title="Permalink to this headline">¶</a></h1>
 <p>None</p>
 <section id="functions">
 <h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<div class="table-wrapper"><table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%"/>
+<col style="width: 90%"/>
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tudatpy.interface.spice.convert_julian_date_to_ephemeris_time" title="tudatpy.interface.spice.convert_julian_date_to_ephemeris_time"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_julian_date_to_ephemeris_time</span></code></a>(…)</p></td>
+<td><p>Convert a Julian date to ephemeris time (equivalent to TDB in Spice).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tudatpy.interface.spice.convert_ephemeris_time_to_julian_date" title="tudatpy.interface.spice.convert_ephemeris_time_to_julian_date"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_ephemeris_time_to_julian_date</span></code></a>(…)</p></td>
+<td><p>Convert ephemeris time (equivalent to TDB) to a Julian date.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tudatpy.interface.spice.convert_date_string_to_ephemeris_time" title="tudatpy.interface.spice.convert_date_string_to_ephemeris_time"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_date_string_to_ephemeris_time</span></code></a>(…)</p></td>
+<td><p>Converts a date string to ephemeris time.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tudatpy.interface.spice.get_body_cartesian_state_at_epoch" title="tudatpy.interface.spice.get_body_cartesian_state_at_epoch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_body_cartesian_state_at_epoch</span></code></a>(…)</p></td>
+<td><p>Get Cartesian state of a body, as observed from another body.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tudatpy.interface.spice.get_body_cartesian_position_at_epoch" title="tudatpy.interface.spice.get_body_cartesian_position_at_epoch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_body_cartesian_position_at_epoch</span></code></a>(…)</p></td>
+<td><p>Get Cartesian position of a body, as observed from another body.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tudatpy.interface.spice.get_cartesian_state_from_tle_at_epoch" title="tudatpy.interface.spice.get_cartesian_state_from_tle_at_epoch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_cartesian_state_from_tle_at_epoch</span></code></a>(epoch, tle)</p></td>
+<td><p>Get Cartesian state of a satellite from its two-line element set at a specified epoch.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tudatpy.interface.spice.compute_rotation_matrix_derivative_between_frames" title="tudatpy.interface.spice.compute_rotation_matrix_derivative_between_frames"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_rotation_matrix_derivative_between_frames</span></code></a>(…)</p></td>
+<td><p>Computes time derivative of rotation matrix between two frames.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tudatpy.interface.spice.get_angular_velocity_vector_of_frame_in_original_frame" title="tudatpy.interface.spice.get_angular_velocity_vector_of_frame_in_original_frame"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_angular_velocity_vector_of_frame_in_original_frame</span></code></a>(…)</p></td>
+<td><p>Computes the angular velocity of one frame w.r.t.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tudatpy.interface.spice.get_body_properties" title="tudatpy.interface.spice.get_body_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_body_properties</span></code></a>(body_name, property, …)</p></td>
+<td><p>Get property of a body from Spice.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tudatpy.interface.spice.get_body_gravitational_parameter" title="tudatpy.interface.spice.get_body_gravitational_parameter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_body_gravitational_parameter</span></code></a>(body_name)</p></td>
+<td><p>Get gravitational parameter of a body.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tudatpy.interface.spice.get_average_radius" title="tudatpy.interface.spice.get_average_radius"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_average_radius</span></code></a>(body_name)</p></td>
+<td><p>Get the (arithmetic) mean of the three principal axes of the tri-axial ellipsoid shape.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tudatpy.interface.spice.convert_body_name_to_naif_id" title="tudatpy.interface.spice.convert_body_name_to_naif_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_body_name_to_naif_id</span></code></a>(body_name)</p></td>
+<td><p>Convert a body name to its NAIF identification number.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tudatpy.interface.spice.get_standard_kernels" title="tudatpy.interface.spice.get_standard_kernels"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_standard_kernels</span></code></a>(arg0)</p></td>
+<td><p>Get the paths to the default legacy kernels.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tudatpy.interface.spice.load_standard_kernels" title="tudatpy.interface.spice.load_standard_kernels"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_standard_kernels</span></code></a>(alternative_kernels)</p></td>
+<td><p>Load the default legacy kernels.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tudatpy.interface.spice.get_total_count_of_kernels_loaded" title="tudatpy.interface.spice.get_total_count_of_kernels_loaded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_total_count_of_kernels_loaded</span></code></a>()</p></td>
+<td><p>Get the number of spice kernels currently loaded.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tudatpy.interface.spice.load_kernel" title="tudatpy.interface.spice.load_kernel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_kernel</span></code></a>(kernel_file)</p></td>
+<td><p>Clear all loaded spice kernels.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tudatpy.interface.spice.clear_kernels" title="tudatpy.interface.spice.clear_kernels"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_kernels</span></code></a>()</p></td>
+<td><p>Clear all loaded spice kernels.</p></td>
+</tr>
+</tbody>
+</table></div>
 <dl class="py function">
 <dt class="sig sig-object py" id="tudatpy.interface.spice.convert_julian_date_to_ephemeris_time">
 <span class="sig-name descname"><span class="pre">convert_julian_date_to_ephemeris_time</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">julian_date</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><span class="pre">float</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">→</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><span class="pre">float</span></a></span></span><a class="headerlink" href="#tudatpy.interface.spice.convert_julian_date_to_ephemeris_time" title="Permalink to this definition">¶</a></dt>
@@ -572,7 +631,7 @@ Wrapper for the <a class="reference external" href="https://naif.jpl.nasa.gov/pu
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title"><code class="docutils literal notranslate"><span class="pre">tudatpy.simulation</span></code></div>
+                <div class="title"><code class="docutils literal notranslate"><span class="pre">simulation</span></code></div>
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
@@ -583,7 +642,7 @@ Wrapper for the <a class="reference external" href="https://naif.jpl.nasa.gov/pu
                   <span>Previous</span>
                 </div>
                 
-                <div class="title"><code class="docutils literal notranslate"><span class="pre">tudatpy.interface</span></code></div>
+                <div class="title"><code class="docutils literal notranslate"><span class="pre">interface</span></code></div>
                 
               </div>
             </a>
@@ -617,7 +676,7 @@ Wrapper for the <a class="reference external" href="https://naif.jpl.nasa.gov/pu
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">tudatpy.interface.spice</span></code></a><ul>
+<li><a class="reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">spice</span></code></a><ul>
 <li><a class="reference internal" href="#functions">Functions</a></li>
 <li><a class="reference internal" href="#classes">Classes</a></li>
 </ul>

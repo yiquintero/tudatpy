@@ -1,5 +1,5 @@
-``tudatpy.interface``
-=====================
+``interface``
+=============
 
 
 .. toctree::

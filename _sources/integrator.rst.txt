@@ -1,5 +1,5 @@
-``tudatpy.simulation.propagation_setup.integrator``
-===================================================
+``integrator``
+==============
 None
 
 
@@ -8,6 +8,25 @@ None
 
 Functions
 ---------
+.. currentmodule:: tudatpy.simulation.propagation_setup.integrator
+
+.. autosummary::
+
+   euler
+
+   runge_kutta_4
+
+   rungeKuttaVariableStepSettingsScalarTolerances
+
+   rungeKuttaVariableStepSettingsVectorTolerances
+
+   runge_kutta_variable_step_size
+
+   bulirsch_stoer
+
+   adams_bashforth_moulton
+
+
 
 .. autofunction:: tudatpy.simulation.propagation_setup.integrator.euler
 

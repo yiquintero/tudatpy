@@ -1,5 +1,5 @@
-``tudatpy.simulation.propagation_setup.acceleration``
-=====================================================
+``acceleration``
+================
 None
 
 
@@ -8,6 +8,55 @@ None
 
 Functions
 ---------
+.. currentmodule:: tudatpy.simulation.propagation_setup.acceleration
+
+.. autosummary::
+
+   point_mass_gravity
+
+   aerodynamic
+
+   cannonball_radiation_pressure
+
+   spherical_harmonic_gravity
+
+   mutual_spherical_harmonic_gravity
+
+   relativistic_correction
+
+   empirical
+
+   custom
+
+   direct_tidal_dissipation_acceleration
+
+   momentum_wheel_desaturation_acceleration
+
+   thrust_acceleration
+
+   thrust_acceleration
+
+   thrust_acceleration
+
+   get_propulsion_input_variables
+
+   thrust_direction_from_state_guidance
+
+   thrust_from_existing_body_orientation
+
+   custom_thrust_orientation
+
+   custom_thrust_direction
+
+   custom_thrust_direction
+
+   custom_thrust_direction
+
+   custom_thrust_magnitude
+
+   custom_thrust_magnitude
+
+
 
 .. autofunction:: tudatpy.simulation.propagation_setup.acceleration.point_mass_gravity
 

@@ -1,5 +1,5 @@
-``tudatpy.simulation.environment_setup.ephemeris``
-==================================================
+``ephemeris``
+=============
 None
 
 
@@ -8,6 +8,35 @@ None
 
 Functions
 ---------
+.. currentmodule:: tudatpy.simulation.environment_setup.ephemeris
+
+.. autosummary::
+
+   direct_spice
+
+   interpolated_spice
+
+   approximate_planet_positions
+
+   approximate_planet_positions
+
+   constant
+
+   custom
+
+   keplerian
+
+   keplerian_from_spice
+
+   scaled
+
+   scaled
+
+   scaled
+
+   tabulated
+
+
 
 .. autofunction:: tudatpy.simulation.environment_setup.ephemeris.direct_spice
 

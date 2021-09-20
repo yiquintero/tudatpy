@@ -1,5 +1,5 @@
-``tudatpy.simulation.propagation_setup.torque``
-===============================================
+``torque``
+==========
 None
 
 
@@ -8,6 +8,19 @@ None
 
 Functions
 ---------
+.. currentmodule:: tudatpy.simulation.propagation_setup.torque
+
+.. autosummary::
+
+   aerodynamic
+
+   spherical_harmonic_gravitational
+
+   second_degree_gravitational
+
+   custom
+
+
 
 .. autofunction:: tudatpy.simulation.propagation_setup.torque.aerodynamic
 

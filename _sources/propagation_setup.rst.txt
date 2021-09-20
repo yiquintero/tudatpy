@@ -1,5 +1,5 @@
-``tudatpy.simulation.propagation_setup``
-========================================
+``propagation_setup``
+=====================
 
 
 .. toctree::

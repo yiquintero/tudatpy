@@ -1,5 +1,5 @@
-``tudatpy.simulation.environment_setup.rotation_model``
-=======================================================
+``rotation_model``
+==================
 None
 
 
@@ -8,6 +8,23 @@ None
 
 Functions
 ---------
+.. currentmodule:: tudatpy.simulation.environment_setup.rotation_model
+
+.. autosummary::
+
+   simple
+
+   simple_from_spice
+
+   synchronous
+
+   spice
+
+   gcrs_to_itrs
+
+   constant
+
+
 
 .. autofunction:: tudatpy.simulation.environment_setup.rotation_model.simple
 

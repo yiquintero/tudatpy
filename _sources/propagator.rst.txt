@@ -1,5 +1,5 @@
-``tudatpy.simulation.propagation_setup.propagator``
-===================================================
+``propagator``
+==============
 None
 
 
@@ -8,6 +8,67 @@ None
 
 Functions
 ---------
+.. currentmodule:: tudatpy.simulation.propagation_setup.propagator
+
+.. autosummary::
+
+   combine_initial_states
+
+   create_acceleration_models
+
+   create_acceleration_models
+
+   create_acceleration_models
+
+   create_acceleration_models
+
+   translational
+
+   translational
+
+   translational
+
+   translational
+
+   translational
+
+   translational
+
+   translational
+
+   rotational
+
+   rotational
+
+   mass
+
+   mass
+
+   mass
+
+   mass
+
+   mass
+
+   multitype
+
+   multitype
+
+   multi_arc
+
+   hybrid_arc
+
+   time_termination
+
+   cpu_time_termination
+
+   dependent_variable_termination
+
+   custom_termination
+
+   hybrid_termination
+
+
 
 .. autofunction:: tudatpy.simulation.propagation_setup.propagator.combine_initial_states
 

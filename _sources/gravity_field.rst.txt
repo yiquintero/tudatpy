@@ -1,5 +1,5 @@
-``tudatpy.simulation.environment_setup.gravity_field``
-======================================================
+``gravity_field``
+=================
 None
 
 
@@ -8,6 +8,19 @@ None
 
 Functions
 ---------
+.. currentmodule:: tudatpy.simulation.environment_setup.gravity_field
+
+.. autosummary::
+
+   central
+
+   central_spice
+
+   spherical_harmonic
+
+   spherical_harmonic_triaxial_body
+
+
 
 .. autofunction:: tudatpy.simulation.environment_setup.gravity_field.central
 

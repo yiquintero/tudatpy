@@ -1,5 +1,5 @@
-``tudatpy.simulation.propagation_setup.dependent_variable``
-===========================================================
+``dependent_variable``
+======================
 None
 
 
@@ -8,6 +8,123 @@ None
 
 Functions
 ---------
+.. currentmodule:: tudatpy.simulation.propagation_setup.dependent_variable
+
+.. autosummary::
+
+   create
+
+   mach_number
+
+   altitude
+
+   airspeed
+
+   density
+
+   relative_speed
+
+   relative_speed
+
+   relative_distance
+
+   relative_velocity
+
+   keplerian_state
+
+   modified_equinoctial_state
+
+   single_acceleration
+
+   single_acceleration_norm
+
+   total_acceleration_norm
+
+   total_acceleration
+
+   single_torque_norm
+
+   single_torque
+
+   total_torque_norm
+
+   total_torque
+
+   spherical_harmonic_terms_acceleration
+
+   spherical_harmonic_terms_acceleration_norm
+
+   aerodynamic_force_coefficients
+
+   aerodynamic_moment_coefficients
+
+   latitude
+
+   geodetic_latitude
+
+   longitude
+
+   heading_angle
+
+   flight_path_angle
+
+   angle_of_attack
+
+   sideslip_angle
+
+   bank_angle
+
+   radiation_pressure
+
+   total_gravity_field_variation_acceleration
+
+   single_gravity_field_variation_acceleration
+
+   single_per_terms_gravity_field_variation_acceleration
+
+   body_fixed_airspeed_velocity
+
+   body_fixed_groundspeed_velocity
+
+   inertial_to_body_fixed_rotation_frame
+
+   lvlh_to_inertial_rotation_matrix
+
+   inertial_to_body_fixed_313_euler_angles
+
+   intermediate_aerodynamic_rotation_matrix_variable
+
+   periapsis_altitude
+
+   control_surface_deflection
+
+   central_body_fixed_spherical_position
+
+   central_body_fixed_cartesian_position
+
+   body_mass
+
+   radiation_pressure_coefficient
+
+   local_temperature
+
+   local_dynamic_pressure
+
+   local_aerodynamic_heat_rate
+
+   local_aerodynamic_g_load
+
+   stagnation_point_heat_flux
+
+   total_mass_rate
+
+   aerodynamic_g_load
+
+   dynamic_pressure
+
+   atmospheric_temperature
+
+
 
 .. autofunction:: tudatpy.simulation.propagation_setup.dependent_variable.create
 
