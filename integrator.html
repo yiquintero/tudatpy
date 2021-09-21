@@ -358,45 +358,27 @@ Different extrapolation sequences can be used (see the <cite>ExtrapolationMethod
 For this integrator, the step size is varied based on the tolerances and safety factor provided.
 The tolerance is composed of an absolute and a relative part.
 Different coefficient sets (Butcher’s tableau) can be used (see the <cite>RungeKuttaCoefficients::CoefficientSets</cite> enum).</p>
-<ul class="simple">
-<li><p>name: initial_time # [py]
-type: float # [py]
-description: Start time (independent variable) of numerical integration.</p></li>
-<li><p>name: initial_time_step # [py]
-type: float # [py]
-description: Initial time step to be used.</p></li>
-<li><p>name: minimum_step_size # [py]
-type: float # [py]
-description: Minimum time step to be used during the integration.</p></li>
-<li><p>name: maximum_step_size # [py]
-type: float # [py]
-description: Maximum time step to be used during the integration.</p></li>
-<li><p>name: relative_error_tolerance # [py]
-type: float, default=1.0E-12 # [py]
-description: Relative tolerance to adjust the time step.</p></li>
-<li><p>name: absolute_error_tolerance # [py]
-type: float, default=1.0E-12 # [py]
-description: Relative tolerance to adjust the time step.</p></li>
-<li><p>name: minimum_order # [py]
-description: Minimum order of the integrator.</p></li>
-<li><p>name: maximum_order # [py]
-description: Maximum order of the integrator.</p></li>
-<li><p>name: save_frequency # [py]
-type: int, default=1 # [py]
-description: Frequency at which to save the numerical integrated states (expressed per unit integration time step, with n = saveFrequency, so n = 1 means that the state is saved once per integration step).</p></li>
-<li><p>name: assess_termination_on_minor_steps # [py]
-type: bool, default=false # [py]
-description: Whether the propagation termination conditions should be evaluated during the intermediate sub-steps of the integrator (true) or only at the end of each integration step (false).</p></li>
-<li><p>name: bandwidth # [py]
-type: float, default=200.0 # [py]
-description: Maximum error factor for doubling the stepsize.</p></li>
-</ul>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>AdamsBashforthMoultonSettings object.</p>
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>initial_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a>) – Start time (independent variable) of numerical integration.</p></li>
+<li><p><strong>initial_time_step</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a>) – Initial time step to be used.</p></li>
+<li><p><strong>minimum_step_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a>) – Minimum time step to be used during the integration.</p></li>
+<li><p><strong>maximum_step_size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a>) – Maximum time step to be used during the integration.</p></li>
+<li><p><strong>relative_error_tolerance</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em>, </em><em>default=1.0E-12</em>) – Relative tolerance to adjust the time step.</p></li>
+<li><p><strong>absolute_error_tolerance</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em>, </em><em>default=1.0E-12</em>) – Relative tolerance to adjust the time step.</p></li>
+<li><p><strong>minimum_order</strong> – Minimum order of the integrator.</p></li>
+<li><p><strong>maximum_order</strong> – Maximum order of the integrator.</p></li>
+<li><p><strong>save_frequency</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)"><em>int</em></a><em>, </em><em>default=1</em>) – Frequency at which to save the numerical integrated states (expressed per unit integration time step, with n = saveFrequency, so n = 1 means that the state is saved once per integration step).</p></li>
+<li><p><strong>assess_termination_on_minor_steps</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>default=false</em>) – Whether the propagation termination conditions should be evaluated during the intermediate sub-steps of the integrator (true) or only at the end of each integration step (false).</p></li>
+<li><p><strong>bandwidth</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em>, </em><em>default=200.0</em>) – Maximum error factor for doubling the stepsize.</p></li>
+</ul>
 </dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference internal" href="#tudatpy.simulation.propagation_setup.integrator.AdamsBashforthMoultonSettings" title="tudatpy.simulation.propagation_setup.integrator.AdamsBashforthMoultonSettings">AdamsBashforthMoultonSettings</a></p>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>AdamsBashforthMoultonSettings object.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#tudatpy.simulation.propagation_setup.integrator.AdamsBashforthMoultonSettings" title="tudatpy.simulation.propagation_setup.integrator.AdamsBashforthMoultonSettings">AdamsBashforthMoultonSettings</a></p>
 </dd>
 </dl>
 </dd></dl>

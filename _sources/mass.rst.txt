@@ -1,0 +1,41 @@
+``mass``
+========
+None
+
+
+
+
+
+Functions
+---------
+.. currentmodule:: tudatpy.simulation.propagation_setup.mass
+
+.. autosummary::
+
+   from_thrust
+
+   custom
+
+
+
+.. autofunction:: tudatpy.simulation.propagation_setup.mass.from_thrust
+
+.. autofunction:: tudatpy.simulation.propagation_setup.mass.custom
+
+
+
+
+Classes
+-------
+
+.. autoclass:: tudatpy.simulation.propagation_setup.mass.MassRateModelSettings
+   :members:
+
+.. autoclass:: tudatpy.simulation.propagation_setup.mass.FromThrustMassRateSettings
+   :members:
+
+.. autoclass:: tudatpy.simulation.propagation_setup.mass.CustomMassRateSettings
+   :members:
+
+
+

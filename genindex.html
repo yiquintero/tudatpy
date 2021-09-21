@@ -297,12 +297,12 @@
 </li>
         <li><a href="spice.html#tudatpy.interface.spice.convert_date_string_to_ephemeris_time">convert_date_string_to_ephemeris_time() (in module tudatpy.interface.spice)</a>
 </li>
-    </ul></td>
-    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="spice.html#tudatpy.interface.spice.convert_ephemeris_time_to_julian_date">convert_ephemeris_time_to_julian_date() (in module tudatpy.interface.spice)</a>
 </li>
         <li><a href="spice.html#tudatpy.interface.spice.convert_julian_date_to_ephemeris_time">convert_julian_date_to_ephemeris_time() (in module tudatpy.interface.spice)</a>
 </li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="propagator.html#tudatpy.simulation.propagation_setup.propagator.cpu_time_termination">cpu_time_termination() (in module tudatpy.simulation.propagation_setup.propagator)</a>
 </li>
         <li><a href="dependent_variable.html#tudatpy.simulation.propagation_setup.dependent_variable.create">create() (in module tudatpy.simulation.propagation_setup.dependent_variable)</a>
@@ -313,6 +313,10 @@
 
         <ul>
           <li><a href="acceleration.html#tudatpy.simulation.propagation_setup.acceleration.custom">(in module tudatpy.simulation.propagation_setup.acceleration)</a>
+</li>
+          <li><a href="mass.html#tudatpy.simulation.propagation_setup.mass.custom">(in module tudatpy.simulation.propagation_setup.mass)</a>
+</li>
+          <li><a href="mass_rate.html#tudatpy.simulation.propagation_setup.mass_rate.custom">(in module tudatpy.simulation.propagation_setup.mass_rate)</a>
 </li>
           <li><a href="torque.html#tudatpy.simulation.propagation_setup.torque.custom">(in module tudatpy.simulation.propagation_setup.torque)</a>
 </li>
@@ -329,6 +333,12 @@
 </li>
         <li><a href="ephemeris.html#tudatpy.simulation.environment_setup.ephemeris.CustomEphemerisSettings">CustomEphemerisSettings (class in tudatpy.simulation.environment_setup.ephemeris)</a>
 </li>
+        <li><a href="mass.html#tudatpy.simulation.propagation_setup.mass.CustomMassRateSettings">CustomMassRateSettings (class in tudatpy.simulation.propagation_setup.mass)</a>
+
+        <ul>
+          <li><a href="mass_rate.html#tudatpy.simulation.propagation_setup.mass_rate.CustomMassRateSettings">(class in tudatpy.simulation.propagation_setup.mass_rate)</a>
+</li>
+        </ul></li>
         <li><a href="acceleration.html#tudatpy.simulation.propagation_setup.acceleration.CustomThrustDirectionSettings">CustomThrustDirectionSettings (class in tudatpy.simulation.propagation_setup.acceleration)</a>
 </li>
         <li><a href="acceleration.html#tudatpy.simulation.propagation_setup.acceleration.CustomThrustOrientationSettings">CustomThrustOrientationSettings (class in tudatpy.simulation.propagation_setup.acceleration)</a>
@@ -387,10 +397,22 @@
     <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="dependent_variable.html#tudatpy.simulation.propagation_setup.dependent_variable.flight_path_angle">flight_path_angle() (in module tudatpy.simulation.propagation_setup.dependent_variable)</a>
 </li>
+        <li><a href="mass.html#tudatpy.simulation.propagation_setup.mass.from_thrust">from_thrust() (in module tudatpy.simulation.propagation_setup.mass)</a>
+
+        <ul>
+          <li><a href="mass_rate.html#tudatpy.simulation.propagation_setup.mass_rate.from_thrust">(in module tudatpy.simulation.propagation_setup.mass_rate)</a>
+</li>
+        </ul></li>
     </ul></td>
     <td style="width: 33%; vertical-align: top;"><ul>
         <li><a href="acceleration.html#tudatpy.simulation.propagation_setup.acceleration.FromFunctionThrustMagnitudeSettings">FromFunctionThrustMagnitudeSettings (class in tudatpy.simulation.propagation_setup.acceleration)</a>
 </li>
+        <li><a href="mass.html#tudatpy.simulation.propagation_setup.mass.FromThrustMassRateSettings">FromThrustMassRateSettings (class in tudatpy.simulation.propagation_setup.mass)</a>
+
+        <ul>
+          <li><a href="mass_rate.html#tudatpy.simulation.propagation_setup.mass_rate.FromThrustMassRateSettings">(class in tudatpy.simulation.propagation_setup.mass_rate)</a>
+</li>
+        </ul></li>
     </ul></td>
   </tr></table>
 </section>
@@ -563,14 +585,20 @@
 </li>
         <li><a href="propagator.html#id10">mass() (in module tudatpy.simulation.propagation_setup.propagator)</a>, <a href="propagator.html#id11">[1]</a>, <a href="propagator.html#id12">[2]</a>, <a href="propagator.html#id13">[3]</a>, <a href="propagator.html#tudatpy.simulation.propagation_setup.propagator.mass">[4]</a>
 </li>
+        <li><a href="mass.html#tudatpy.simulation.propagation_setup.mass.MassRateModelSettings">MassRateModelSettings (class in tudatpy.simulation.propagation_setup.mass)</a>
+
+        <ul>
+          <li><a href="mass_rate.html#tudatpy.simulation.propagation_setup.mass_rate.MassRateModelSettings">(class in tudatpy.simulation.propagation_setup.mass_rate)</a>
+</li>
+        </ul></li>
         <li><a href="acceleration.html#tudatpy.simulation.propagation_setup.acceleration.MeeCostateBasedThrustDirectionSettings">MeeCostateBasedThrustDirectionSettings (class in tudatpy.simulation.propagation_setup.acceleration)</a>
 </li>
         <li><a href="dependent_variable.html#tudatpy.simulation.propagation_setup.dependent_variable.modified_equinoctial_state">modified_equinoctial_state() (in module tudatpy.simulation.propagation_setup.dependent_variable)</a>
 </li>
-        <li><a href="acceleration.html#tudatpy.simulation.propagation_setup.acceleration.momentum_wheel_desaturation_acceleration">momentum_wheel_desaturation_acceleration() (in module tudatpy.simulation.propagation_setup.acceleration)</a>
-</li>
     </ul></td>
     <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="acceleration.html#tudatpy.simulation.propagation_setup.acceleration.momentum_wheel_desaturation_acceleration">momentum_wheel_desaturation_acceleration() (in module tudatpy.simulation.propagation_setup.acceleration)</a>
+</li>
         <li><a href="propagator.html#tudatpy.simulation.propagation_setup.propagator.multi_arc">multi_arc() (in module tudatpy.simulation.propagation_setup.propagator)</a>
 </li>
         <li><a href="propagator.html#tudatpy.simulation.propagation_setup.propagator.MultiArcPropagatorSettings">MultiArcPropagatorSettings (class in tudatpy.simulation.propagation_setup.propagator)</a>
