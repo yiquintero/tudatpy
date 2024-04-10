@@ -1,13 +1,8 @@
-from .kernel.astro import conversion as _oec
+# from .kernel.astro import conversion as _oec
 import numpy as np
 
 
-def spherical2cartesian(r,
-                        lat,
-                        lon,
-                        speed,
-                        fpa,
-                        heading) -> np.ndarray:
+def spherical2cartesian(r, lat, lon, speed, fpa, heading) -> np.ndarray:
     """
     Function to convert spherical state to cartesian.
 
@@ -43,14 +38,16 @@ def spherical2cartesian(r,
     return _oec.convert_spherical_orbital_to_cartesian_state(spherical_state)
 
 
-def keplerian2cartesian(mu: float = None,
-                        sma: float = None,
-                        ecc: float = None,
-                        inc: float = None,
-                        raan: float = None,
-                        argp: float = None,
-                        theta: float = None,
-                        **kwargs) -> np.ndarray:
+def keplerian2cartesian(
+    mu: float = None,
+    sma: float = None,
+    ecc: float = None,
+    inc: float = None,
+    raan: float = None,
+    argp: float = None,
+    theta: float = None,
+    **kwargs
+) -> np.ndarray:
     """
     Function to convert Keplerian state to cartesian.
 
