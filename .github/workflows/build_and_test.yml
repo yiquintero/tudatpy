@@ -66,6 +66,7 @@ jobs:
       with:
         path: tudatpy
 
+
     - name: Clone tudat's develop branch
       uses: actions/checkout@v4
       with:
@@ -73,18 +74,13 @@ jobs:
         ref: refs/heads/develop
         path: tudat
 
+
     - name: Download files from tudat-bundle 
       shell: bash
       run: |
         curl -L -o build.sh https://raw.githubusercontent.com/tudat-team/tudat-bundle/main/build.sh
         curl -L -o CMakeLists.txt https://raw.githubusercontent.com/tudat-team/tudat-bundle/main/CMakeLists.txt
         curl -L -o environment.yaml https://raw.githubusercontent.com/tudat-team/tudat-bundle/main/environment.yaml
-        echo "--- tudat ---"
-        ls tudat
-        echo "--- tudatpy ---"
-        ls tudatpy
-        echo "--- ---"
-        ls
 
 
     - name: Setup conda environment using mamba
@@ -137,11 +133,6 @@ jobs:
       if: runner.os == 'Windows' && steps.cache.outputs.cache-hit == 'true'
       run: cmd /c "curl -fsSL https://raw.githubusercontent.com/tudat-team/tudat-resources-feedstock/master/recipe/post-link.bat | cmd"
 
-    - name: check files
-      shell: bash
-      run: |
-        echo "--- ---"
-        ls
 
     - name: Restore cached compilation results
       # This third party action will setup ccache on the runner and restore any previously saved cache. Caches are saved automatically by the action after a build.
@@ -165,10 +156,10 @@ jobs:
         -DTUDAT_BUILD_GITHUB_ACTIONS=ON
 
 
-    # - name: Build
-    #   # Build your program with the given configuration. Note that --config is needed because the default Windows generator is a multi-config generator (Visual Studio generator). Use multiple cpu cores available in the runner.
-    #   shell: bash -l {0}
-    #   run: cmake --build "${{ github.workspace }}/build" --config "${{ matrix.build_type }}" -j4
+    - name: Build
+      # Build your program with the given configuration. Note that --config is needed because the default Windows generator is a multi-config generator (Visual Studio generator). Use multiple cpu cores available in the runner.
+      shell: bash -l {0}
+      run: cmake --build "${{ github.workspace }}/build" --config "${{ matrix.build_type }}" -j4
 
 
     # - name: Test
