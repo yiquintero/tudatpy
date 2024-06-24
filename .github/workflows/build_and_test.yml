@@ -78,7 +78,6 @@ jobs:
     - name: Download files from tudat-bundle 
       shell: bash
       run: |
-        curl -L -o build.sh https://raw.githubusercontent.com/tudat-team/tudat-bundle/main/build.sh
         curl -L -o CMakeLists.txt https://raw.githubusercontent.com/tudat-team/tudat-bundle/main/CMakeLists.txt
         curl -L -o environment.yaml https://raw.githubusercontent.com/tudat-team/tudat-bundle/main/environment.yaml
 
